@@ -7,6 +7,7 @@ public class APITest {
 	@Test
 	public void postJira() {
 		System.out.println("PostJira");
+		System.out.println("123");
 	}
 	@Test
 	public void deleteTwitter() {
