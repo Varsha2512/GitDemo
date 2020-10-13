@@ -36,7 +36,7 @@ public class HomePage extends BaseClass{
 		 loginPage log = new loginPage(driver);
 		 log.Email().sendKeys(Username);
 		 log.Password().sendKeys(Password);
-		 log.Login().click();
+		 
 		 
 		 
 	}
