@@ -14,4 +14,9 @@ public class APITest {
 		System.out.println("Delete");
 	}
 	
+	@Test
+	public void addInt() {
+		System.out.println("assudhuashcu");
+		System.out.println("usduhsu");
+	}
 }
