@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" verbose="0">
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="Academy.E2EProject.validateNav">
+        <methods>
+          <include name="teardown"/>
+          <include name="tearUP"/>
+        </methods>
+      </class> <!-- Academy.E2EProject.validateNav -->
+      <class name="Academy.E2EProject.validateJV">
+        <methods>
+          <include name="tearUP"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.E2EProject.validateJV -->
+      <class name="Academy.E2EProject.HomePage">
+        <methods>
+          <include name="tearUP"/>
+          <include name="teardown"/>
+          <include name="basePageNavigation" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Academy.E2EProject.HomePage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
